@@ -19,13 +19,22 @@ evaluation, RAG, and tool-using agents**; **NLP, machine translation, speech,
 OCR, and video intelligence**; **A/B experimentation and product analytics**;
 and **computer vision, biometrics, and signal processing**. Every repository
 below is real, tested, documented code with reproducible results and, where it
-fits, an interactive dashboard or web app. **18 projects · 175+ passing tests.**
+fits, an interactive dashboard or web app. **20 projects · 210+ passing tests**,
+including three flagship systems (a full-stack RAG app, an MLOps platform, and a
+production API gateway).
+
+## 🏁 Flagship Systems
+
+| Project | What it does |
+| :-- | :-- |
+| **[genai-doc-assistant](https://github.com/riteshmamidi0905-lab/genai-doc-assistant)** | **Full-stack RAG application** — chat web UI + FastAPI backend, retrieval-augmented **grounded answers with citations**, a router-agent, **SSE streaming**, an eval harness (hit-rate 1.0), Docker Compose + CI (40 files, 21 tests). |
+| **[mlops-platform](https://github.com/riteshmamidi0905-lab/mlops-platform)** | **End-to-end ML platform** — feature store, experiment tracking, a **model registry** with stage promotion, FastAPI serving, and **PSI/KS drift monitoring**, wired behind a CLI (28 files, 10 tests). |
+| **[ai-skills-platform](https://github.com/riteshmamidi0905-lab/ai-skills-platform)** | **Production API gateway** for 8 AI skills — plugin registry, **API-key auth**, durable **SQLite request logging**, web console + live **monitoring dashboard**, Docker Compose + CI (14 tests). |
 
 ## 🤖 AI / GenAI & ML Engineering
 
 | Project | What it does |
 | :-- | :-- |
-| **[ai-skills-platform](https://github.com/riteshmamidi0905-lab/ai-skills-platform)** | 🏁 **Flagship** — a unified **FastAPI gateway + web console** serving every AI skill behind one API, with a plugin registry, per-skill metrics, batch, and Docker (10 tests). |
 | **[llm-eval-framework](https://github.com/riteshmamidi0905-lab/llm-eval-framework)** | Rubric-driven **LLM output evaluation platform** — 14-metric suite, LLM-as-judge, REST API, interactive dashboard, benchmark suite (33 tests). |
 | **[rag-doc-qa](https://github.com/riteshmamidi0905-lab/rag-doc-qa)** | **Retrieval-Augmented Q&A** engine — chunking, from-scratch TF-IDF retrieval, grounded/citable answers, FastAPI service + Docker (14 tests). |
 | **[ai-agent-toolkit](https://github.com/riteshmamidi0905-lab/ai-agent-toolkit)** | **ReAct tool-using agent** framework — safe AST calculator, unit convert, knowledge base, multi-step observation feedback, pluggable Gemini/OpenAI backends (11 tests). |
