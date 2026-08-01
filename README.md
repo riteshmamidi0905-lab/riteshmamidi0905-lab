@@ -14,19 +14,32 @@
 
 ---
 
-I build **end-to-end AI and analytics systems** — from LLM/agent evaluation and
-retrieval-augmented generation, to A/B experimentation and product analytics, to
-computer vision, biometrics, and signal processing. Every repository below is
-real, tested, documented code with reproducible results and, where it fits, an
-interactive dashboard or web app.
+I build **end-to-end AI and analytics systems** — spanning **LLM/agent
+evaluation, RAG, and tool-using agents**; **NLP, machine translation, speech,
+OCR, and video intelligence**; **A/B experimentation and product analytics**;
+and **computer vision, biometrics, and signal processing**. Every repository
+below is real, tested, documented code with reproducible results and, where it
+fits, an interactive dashboard or web app. **18 projects · 175+ passing tests.**
 
 ## 🤖 AI / GenAI & ML Engineering
 
 | Project | What it does |
 | :-- | :-- |
+| **[ai-skills-platform](https://github.com/riteshmamidi0905-lab/ai-skills-platform)** | 🏁 **Flagship** — a unified **FastAPI gateway + web console** serving every AI skill behind one API, with a plugin registry, per-skill metrics, batch, and Docker (10 tests). |
 | **[llm-eval-framework](https://github.com/riteshmamidi0905-lab/llm-eval-framework)** | Rubric-driven **LLM output evaluation platform** — 14-metric suite, LLM-as-judge, REST API, interactive dashboard, benchmark suite (33 tests). |
 | **[rag-doc-qa](https://github.com/riteshmamidi0905-lab/rag-doc-qa)** | **Retrieval-Augmented Q&A** engine — chunking, from-scratch TF-IDF retrieval, grounded/citable answers, FastAPI service + Docker (14 tests). |
+| **[ai-agent-toolkit](https://github.com/riteshmamidi0905-lab/ai-agent-toolkit)** | **ReAct tool-using agent** framework — safe AST calculator, unit convert, knowledge base, multi-step observation feedback, pluggable Gemini/OpenAI backends (11 tests). |
 | **[vision-inference-api](https://github.com/riteshmamidi0905-lab/vision-inference-api)** | CNN **image-classification service** with confidence-based **human-in-the-loop review routing** (PyTorch + FastAPI, 9 tests). |
+
+## 🧠 Language, Speech & Vision AI
+
+| Project | What it does |
+| :-- | :-- |
+| **[nlp-text-intelligence](https://github.com/riteshmamidi0905-lab/nlp-text-intelligence)** | **NLP toolkit** — sentiment (lexicon + ML), NER, topic classification, keywords & TextRank summarization; optional Google Cloud Natural Language (12 tests). |
+| **[neural-machine-translation](https://github.com/riteshmamidi0905-lab/neural-machine-translation)** | **Seq2seq translation with attention** (PyTorch) EN→FR, from-scratch BLEU, phrase-based baseline; optional Google Cloud Translation (8 tests). |
+| **[speech-intelligence](https://github.com/riteshmamidi0905-lab/speech-intelligence)** | **Speech-to-text** (MFCC + command recognition) & **formant text-to-speech**; a from-scratch DSP front end; optional Google Cloud Speech (8 tests). |
+| **[document-ocr-vision](https://github.com/riteshmamidi0905-lab/document-ocr-vision)** | **Document AI** — OpenCV preprocessing/deskew, Tesseract **OCR**, structured field extraction, CER/WER; optional Google Cloud Vision (8 tests). |
+| **[video-intelligence](https://github.com/riteshmamidi0905-lab/video-intelligence)** | **Video understanding** — shot-boundary detection, optical-flow motion, object tracking, scene labels; optional Google Cloud Video Intelligence (9 tests). |
 
 ## 📊 Product & Data Analytics
 
